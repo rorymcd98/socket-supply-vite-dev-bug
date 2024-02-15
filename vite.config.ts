@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import externalize from 'vite-plugin-externalize-dependencies'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import externalize from "vite-plugin-externalize-dependencies";
 
 export default defineConfig({
   plugins: [
@@ -10,9 +10,9 @@ export default defineConfig({
     react(),
   ],
   build: {
-    outDir: 'dist',
+    outDir: "dist",
     rollupOptions: {
       external: [/^socket:.*/],
     },
   },
-})
+});

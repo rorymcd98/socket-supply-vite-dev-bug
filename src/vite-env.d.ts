@@ -1,2 +1,3 @@
 /// <reference types="vite/client" />
-declare module "socket:*"
+declare module "socket:*";
+import "@socketsupply/socket";

@@ -1,3 +1,5 @@
+sql-wasm.wasm
+
 # Logs
 logs
 *.log
@@ -14,6 +16,7 @@ dist-ssr
 build/*
 
 # Editor directories and files
+.vs/*
 .vscode/*
 !.vscode/extensions.json
 .idea
